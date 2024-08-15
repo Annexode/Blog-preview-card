@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5d04e;
+}
+
+/* TOP OF THE PREVIEW */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .box {
+  background: white;
+  border: 2px solid black;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  height: 500px;
+  width: 310px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.head-box {
+  background: url(./back2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  height: 200px;
+  width: 290px;
+  margin-top: 13px;
+}
+
+/* MIDDLE OF THE PREVIEW */
+
+.learning {
+  font-size: 1rem;
+  margin-top: 10px;
+  background: #f5d04e;
+  width: 70px;
+  padding: 3px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.date {
+  font-size: 0.7rem;
+  margin-top: 10px;
+  padding: 3px;
+  margin: 10px;
+}
+
+.HTML {
+  font-size: 1.2rem;
+  font-weight: 800px;
+  margin-top: 10px;
+  padding: 3px;
+  margin: 20px 5px 10px 10px;
+}
+
+p {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  padding: 3px;
+  margin: 10px;
+  text-align: left;
+}
+
+/* END PART  */
+.end {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 40px 10px;
+}
+
+.endphoto {
+  background: url(./Annexode.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid rgb(248, 181, 13);
+  box-shadow: 0 5px 2px rgba(21, 21, 21, 0.459);
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+
+.text-end  {
+  font-size: 10px;
+  font-weight: 1500px;
+  padding: 15px 7px;
+  /* border-bottom: 2px solid darkgoldenrod; */
+}
